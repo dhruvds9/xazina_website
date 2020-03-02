@@ -8,7 +8,7 @@ html {
     height: 100%
 }
 
-.navbar {
+.navbar {  
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
     height: 10%;
@@ -25,6 +25,21 @@ html {
 }
 
 .navbar-items {
+    color: #000 !important;
+    font-family: 'Open Sans';
+    font-size: medium;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+    padding-bottom: 0.125em;
+    padding-top: 0.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+    margin: 0 0.5rem;
+}
+
+.navbar-items-alt {
+    color: #fff !important;
     font-family: 'Open Sans';
     font-size: medium;
     border-bottom: 2px solid transparent;
@@ -38,10 +53,11 @@ html {
 }
 
 .navbar-items:hover,
+.navbar-items-alt:hover,
 .navbar-items.active {
     border-bottom-color: #fabaae;
     font-weight: medium;
-    color: #fabaae;
+    color: #fabaae !important;
 
 }
 
@@ -122,4 +138,9 @@ html {
 
 .cls-4-alt{
     fill: #fabaee;
+}
+
+.page-footer{
+    background-color: #000033 !important;
+    opacity: 1 !important;
 }

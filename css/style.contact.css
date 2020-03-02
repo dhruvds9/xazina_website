@@ -30,7 +30,7 @@ html {
 .navbar-items.active {
     border-bottom-color: #fabaae;
     font-weight: medium;
-    color: #fabaae;
+    color: #fabaae !important;
 
 }
 
@@ -95,4 +95,9 @@ html {
 
 .cls-4-nav{
     fill: #fabaae;
+}
+
+.page-footer{
+    background-color: #000033 !important;
+    opacity: 1 !important;
 }
