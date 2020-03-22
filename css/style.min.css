@@ -61,6 +61,90 @@ html {
 
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dd-menu {
+    content: "";
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.dropdown:hover .dd-menu {
+    display: block;
+}
+
+.dd-menu a {
+    font-family: 'Open Sans';
+    font-size: medium;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+    padding-bottom: 0.125em;
+    padding-top: 0.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+    margin: 0 0.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    color: black !important;
+    display: block;
+    margin: 0;
+}
+
+.dd-menu a:hover,
+.dd-menu a.active{
+    border-bottom-color: #fabaae;
+    font-weight: medium;
+    color: #fabaae !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dd-menu-alt{
+    content: "";
+    display: none;
+    position: absolute;
+    background-color: #000033;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+
+.dropdown:hover .dd-menu-alt {
+    display: block;
+}
+
+.dd-menu-alt a {
+    font-family: 'Open Sans';
+    font-size: medium;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+    padding-bottom: 0.125em;
+    padding-top: 0.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+    margin: 0 0.5rem;
+    background-color: #000033;
+    color: white !important;
+    display: block;
+    margin: 0;
+}
+
+.dd-menu-alt a:hover,
+.dd-menu-alt a.active{
+    border-bottom-color: #fabaae;
+    font-weight: medium;
+    color: #fabaae !important;
+    background-color: #000033 !important;
+}
+
 .page-footer,
 .top-nav-collapse {
     background-color: #000033

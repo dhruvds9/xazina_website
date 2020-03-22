@@ -34,6 +34,50 @@ html {
 
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    content: "";
+    display: none;
+    position: absolute;
+    background-color: #000033;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    font-family: 'Open Sans';
+    font-size: medium;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+    padding-bottom: 0.125em;
+    padding-top: 0.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+    margin: 0 0.5rem;
+    background-color: #000033;
+    color: white !important;
+    display: block;
+    margin: 0;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a.active{
+    border-bottom-color: #fabaae;
+    font-weight: medium;
+    color: #fabaae !important;
+    background-color: #000033 !important;
+}
+
 .page-footer,
 .top-nav-collapse {
     background-color: #000033

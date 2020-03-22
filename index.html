@@ -141,9 +141,13 @@
 
         <!-- Left -->
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link navbar-items" href="about.html">ABOUT</a>
-          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navbar-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="navdr">ABOUT</a>
+              <div class="dropdown-menu dropdown-menu-left dd-menu" aria-labelledby="navdr">
+                  <a class="dropdown-item" href="about.html">About Us</a>
+                  <a class="dropdown-item" href="about_lgd.html">About LGD</a>
+              </div>
+            </li>
           <li class="nav-item">
             <a class="nav-link navbar-items" href="blog.html">BLOG</a>
           </li>
@@ -361,6 +365,7 @@
     var class2 = $(".cls-2");
     var class3 = $(".cls-4");
     var class4 = $(".navbar-items");
+    var class5 = $(".dropdown-menu");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
@@ -369,11 +374,13 @@
             class2.removeClass('cls-2').addClass("cls-2-alt");
             class3.removeClass('cls-4').addClass("cls-4-alt");
             class4.removeClass('navbar-items').addClass("navbar-items-alt");
+            class5.removeClass('dd-menu').addClass("dd-menu-alt");
         } else {
             class1.removeClass('cls-1-alt').addClass("cls-1");
             class2.removeClass('cls-2-alt').addClass("cls-2");
             class3.removeClass('cls-4-alt').addClass("cls-4");
             class4.removeClass('navbar-items-alt').addClass("navbar-items");
+            class5.removeClass('dd-menu-alt').addClass("dd-menu");
         }
     });
 });
