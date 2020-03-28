@@ -12,7 +12,7 @@
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Custom style file -->
-    <link href="css/style.about.css" rel="stylesheet">
+    <link href="css/style.services.css" rel="stylesheet">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
@@ -146,8 +146,12 @@
               <li class="nav-item">
                 <a class="nav-link navbar-items" href="blog.html">BLOG</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active navbar-items" href="services.html">SERVICES</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle navbar-items active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="navdr">SERVICES</a>
+                <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navdr">
+                    <a class="dropdown-item active" href="services_diamonds.html">Diamonds</a>
+                    <a class="dropdown-item" href="services_jewelery.html">Jewelery</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link navbar-items" href="contact_us.html">CONTACT US</a>
@@ -159,8 +163,79 @@
         </div>
     </nav>
 
-    <div style="padding-top: 12%; height: 56%;" class="row col-md-4 offset-md-4 col-lg-4 offset-lg-4 d-flex justify-content-center">
-        <h1 style="font-family: Cormorant Garamond; font-size: 4rem; text-align: center;">Coming Soon</h1>
+    <div style="margin-top: 3%; margin-left: 7%; margin-top: 8%;" class="row col-md-12 col-lg-12">
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">Shape of Diamonds</h1><br>
+    </div>
+
+    <div style="margin-top: 3%;" class="row col-md-10 col-lg-10 offset-md-1 offset-lg-1">
+      <img style="width: 100%; margin-top: auto;" src="img/shapes.png" alt="">
+    </div>
+
+    <div style="margin-top: 3%; margin-bottom: 2%;" class="row col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">The four Cs of Diamond</h1><br>
+    </div>
+
+    <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+      <p style="font-family: Open Sans; margin-bottom: 0.5%;">CUT</p>
+      <p style="font-family: Open Sans; font-size: small; text-align: justify; margin-bottom: 0;">The cut of a diamond refers not to its shape, but to the balance of proportion, symmetry and polish achieved by the diamond cutter. The extent of how well the diamond is cut is directly related to the diamond’s overall beauty. The cut of a diamond affects its:</p><p style="font-family: Open Sans; font-size: small; text-align: justify; margin-bottom: 0;">
+        <b style="font-weight: 800;">Brilliance- </b>Brilliance, or brightness, refers to the white light that is reflected back to the eye from the diamond.</p><p style="font-family: Open Sans; font-size: small; text-align: justify; margin-bottom: 0;">
+        <b style="font-weight: 800;">Dispersion (fire)- </b>Dispersion is the rainbow of colours that is reflected back to the eye from the diamond.</p><p style="font-family: Open Sans; font-size: small; text-align: justify;">
+        <b style="font-weight: 800;">Scintillation- </b>Scintillation is the play of light you see with movement of the diamond, demonstrated by sparkling on the diamond's surface.</p><br>
+      <p style="font-family: Open Sans; margin-bottom: 0.5%;">COLOUR</p>
+      <p style="font-family: Open Sans; font-size: small; text-align: justify;">Colour refers to the natural body colour of a diamond and not to the reflection of spectral colours that flash when a diamond moves. Most diamonds naturally
+        exhibit slight hints of yellow, brown, or gray. This colour is caused by natural trace elements of nitrogen that were present when the diamond formed. </p><br>
+      <p style="font-family: Open Sans; margin-bottom: 0.5%;">CLARITY</p>
+      <p style="font-family: Open Sans; font-size: small; text-align: justify;">Clarity refers to how clean or clear the diamond is with respect to natural microscopic characteristics that were trapped within or on the diamond while it was
+        forming. Internal characteristics are known as inclusions, and characteristics on the surface of the gem are known as blemishes. Inclusions may be crystals of
+        a foreign material or structural imperfections such as tiny cracks, known as feathers, which can appear whitish or cloudy.</p><br>
+      <p style="font-family: Open Sans; margin-bottom: 0.5%;">CARAT</p>
+      <p style="font-family: Open Sans; font-size: small; text-align: justify;">Carat (ct.) refers to the unique unit of weight measurement used exclusively to weigh gems and diamonds. Carat weight is often confused with visual size even
+        though it is actually a measurement of weight.</p>
+    </div>
+
+    <div style="margin-top: 3%;" class="row col-md-10 offset-md-1 col-lg-10 offset-lg-1">
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">Now that you've selected a shape and know enough about diamonds, its time to book a consultation</h1><br>
+    </div>
+
+    <div class="col-md-10 col-lg-10 offset-md-1 offset-lg-1">
+      <div class="col-md-5 col-lg-5">
+          <div class="row">
+            <form action="">
+                <div style="margin-bottom: 0;" class="md-form">
+                    <input type="text" id="name" class="form-control" placeholder="Full Name" style="font-family: 'Open Sans'; width: 80%;">
+                </div>
+                <div style="margin: 0;" class="md-form">
+                    <input type="email" id="email" class="form-control" placeholder="E-mail" style="font-family: 'Open Sans'; width: 80%;">
+                </div>
+                <div style="margin: 0;" class="md-form">
+                    <input type="number" id="num" class="form-control" placeholder="Contact Number" style="font-family: 'Open Sans'; width: 80%;">
+                </div>
+                <div style="margin: 0;" class="md-form">
+                    <input type="text" id="date" class="form-control" placeholder="DD-MM-YYYY" style="font-family: 'Open Sans'; width: 80%; margin-right: 3%; display: inline;" onfocus="(this.type='date')"
+                    onblur="(this.type='text')"><span style="display: inline; font-family: Open Sans; font-size: small;">*</span>
+                </div>
+                <div style="margin: 0;" class="md-form">
+                    <input type="text" id="timeinp" class="form-control" placeholder="HH-MM" style="font-family: 'Open Sans'; width: 50%; margin-right: 10%; display: inline;" onfocus="(this.type='time')"
+                    onblur="(this.type='text')">
+                    <div class="custom-control custom-radio pmd-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label pmd-radio-ripple-effect" for="customRadioInline1">AM</label>
+                    </div>
+                    <div style="margin-left: 3%; margin-right: 1.5%;" class="custom-control custom-radio pmd-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label pmd-radio-ripple-effect" for="customRadioInline2">PM</label>
+                    </div>
+                    <span style="display: inline; font-family: Open Sans; font-size: small;">*</span>
+                </div>
+                <div style="margin-top: 1.5%; opacity: 0.9;" class="md-form">
+                  <p style="font-family: Open Sans; font-size: small;">* The date and time mentioned above is meant for us to contact you</p>
+              </div>
+                <div class="md-form">
+                    <button type="submit" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;">BOOK YOUR CONSULTATION</button>
+                </div>
+            </form>
+          </div>
+      </div>
     </div>
 
   <!--Footer-->
@@ -174,7 +249,7 @@
         </div>
         <div class="row">
           <p style="font-family: Open Sans; color: #fabaae; font-weight: bold; padding-right: 1rem;">SERVICES</p>
-          <p style="font-family: Open Sans;"><i style="font-size: 0.4rem; padding-right: 1rem;" class="fas fa-circle fa-inverse fa-xs"></i><a style="font-family: Open Sans; padding-right: 1rem;" href="#">Buy a diamond</a><i style="font-size: 0.4rem; padding-right: 1rem;" class="fas fa-circle fa-inverse fa-xs"></i><a style="font-family: Open Sans; padding-right: 1rem;" href="#">Buy a ring</a></p>
+          <p style="font-family: Open Sans;"><i style="font-size: 0.4rem; padding-right: 1rem;" class="fas fa-circle fa-inverse fa-xs"></i><a style="font-family: Open Sans; padding-right: 1rem;" href="services_diamonds.html">Buy a diamond</a><i style="font-size: 0.4rem; padding-right: 1rem;" class="fas fa-circle fa-inverse fa-xs"></i><a style="font-family: Open Sans; padding-right: 1rem;" href="services_jewelery.html">Buy a ring</a></p>
         </div>
         <div class="row">
           <p style="font-family: Open Sans; color: #fabaae; font-weight: bold; padding-right: 1rem;">ABOUT</p>
@@ -226,5 +301,29 @@
   </div>
 </footer>
 <!--/.Footer-->
+
+<!-- SCRIPTS -->
+  
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#timeinp').pickatime({
+        twelvehour: true,
+      });
+    });
+  </script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
 </body>
 </html>
