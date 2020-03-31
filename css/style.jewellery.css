@@ -1,0 +1,139 @@
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+    height: 100%
+}
+
+.navbar-a {
+    background-color: #000033;
+    box-shadow: none;
+    height: 10%;
+}
+
+.navbrand {
+    padding-top: 12%;
+}
+
+.navbar-items {
+    font-family: 'Open Sans';
+    font-size: medium;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+    padding-bottom: 0.125em;
+    padding-top: 0.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+    margin: 0 0.5rem;
+}
+
+.navbar-items:hover,
+.navbar-items.active {
+    border-bottom-color: #fabaae;
+    font-weight: medium;
+    color: #fabaae !important;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    content: "";
+    display: none;
+    position: absolute;
+    background-color: #000033;
+    min-width: 160px;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    font-family: 'Open Sans';
+    font-size: medium;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+    padding-bottom: 0.125em;
+    padding-top: 0.125em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border-bottom-color 50ms linear 0s;
+    margin: 0 0.5rem;
+    background-color: #000033;
+    color: white !important;
+    display: block;
+    margin: 0;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu a.active{
+    border-bottom-color: #fabaae;
+    font-weight: medium;
+    color: #fabaae !important;
+    background-color: #000033 !important;
+}
+
+.page-footer,
+.top-nav-collapse {
+    background-color: #000033
+}
+
+@media only screen and (max-width:768px) {
+    .navbar {
+        background-color: #000033;
+        box-shadow: none;
+        height: 12.5%;
+    }
+
+    .navbar-items {
+        font-family: 'Open Sans';
+        font-size: medium;
+    }
+
+    .navbrand {
+        font-family: 'Cormorant Garamond';
+        font-size: x-large;
+        padding-top: 0;
+    }
+}
+
+.brand {
+    width: 10rem;
+    height: 4rem;
+}
+
+.cls-1-nav{
+    fill: none;
+    stroke: #fabaae;
+    stroke-miterlimit: 10;
+    stroke-width: 0.25px;
+}
+
+.cls-2-nav{
+    fill: none;
+    stroke: #fabaae;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.cls-3-nav {
+    clip-path: url(#clip-path);
+}
+
+.cls-4-nav{
+    fill: #fabaae;
+}
+
+.page-footer{
+    background-color: #000033 !important;
+    opacity: 1 !important;
+}
