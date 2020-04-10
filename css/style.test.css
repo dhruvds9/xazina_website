@@ -17,6 +17,7 @@
       align-items: center;
       padding: 10px 30px;
       box-sizing: border-box;
+      box-shadow: none;
   }
 
   .icon,
@@ -60,6 +61,10 @@
   }
 
   @media (max-width: 675px){
+      body{
+          overflow-x: hidden;
+          width: 100%;
+      }
       .icon,
       .close-btn{
           display: block;
@@ -155,8 +160,8 @@
     left: 50%;
     margin: 10px auto;
     background-color: #000033;
-    width: 300px;
-    margin-left: -150px;
+    width: 250px;
+    margin-left: -125px;
     box-shadow: none;
     z-index: 2;
 }
@@ -221,4 +226,11 @@
 .page-footer{
     background-color: #000033 !important;
     opacity: 1 !important;
+}
+
+.fab{
+    position: fixed;
+    z-index: 4;
+    top: 82.5%;
+    right: 25px;
 }
