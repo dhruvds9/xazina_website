@@ -169,7 +169,7 @@
         <div class="carousel-item active">
           <div class="view" style="background-image: url('img/jbanner 1.png'); background-repeat: no-repeat; background-size: cover; background-position-y: center;">
             <div style="margin-top: 33%; margin-left: 4%;" class="md-form">
-                <button type="button" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;"  onclick="window.location.href='#rings'">EXPLORE COLLECTION</button>
+                <button type="button" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;"  onclick="window.location.href='#consultation'">BOOK A CONSULTATION</button>
             </div>
           </div>
         </div>
@@ -179,7 +179,7 @@
         <div class="carousel-item">
           <div class="view" style="background-image: url('img/jbanner 2.png'); background-repeat: no-repeat; background-size: cover; background-position-y: center;">
             <div style="margin-top: 30%; margin-left: 4%;" class="md-form">
-                <button type="button" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;"  onclick="window.location.href='#rings'">EXPLORE COLLECTION</button>
+                <button type="button" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;"  onclick="window.location.href='#consultation'">BOOK A CONSULTATION</button>
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@
         <div class="carousel-item">
           <div class="view" style="background-image: url('img/jbanner 3.png'); background-repeat: no-repeat; background-size: cover; background-position-y: center;">
             <div style="margin-top: 30%; margin-left: 4%;" class="md-form">
-                <button type="button" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;"  onclick="window.location.href='#jewels'">EXPLORE COLLECTION</button>
+                <button type="button" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;"  onclick="window.location.href='#consultation'">BOOK A CONSULTATION</button>
             </div>
           </div>
         </div>
@@ -205,7 +205,7 @@
     <div id="rings"></div>
 
     <div style="margin-top: 3%; margin-bottom: 2%; margin-left: 3%;" class="row col-md-10 offset-md-1 col-lg-10 offset-lg-1">
-        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">Engagement Rings and Eternity Bands</h1><br>
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem; color: #000033;">Engagement Rings and Eternity Bands</h1><br>
     </div>
 
     <div style="margin-top: 3%; padding-left: 0; padding-right: 0;" class="col-md-12 col-lg-12">
@@ -215,15 +215,17 @@
     <div id="jewels"></div>
 
     <div style="margin-top: 3%; margin-bottom: 2%; margin-left: 3%;" class="row col-md-10 offset-md-1 col-lg-10 offset-lg-1">
-        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">Customized Jewellery</h1><br>
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem; color: #000033;">Customized Jewellery</h1><br>
     </div>
 
     <div style="margin-top: 3%; padding-left: 0; padding-right: 0;" class="col-md-12 col-lg-12">
         <img style="width: 100%; margin-top: auto;" src="img/custom jewellery.png" alt="">
     </div>
 
-    <div style="margin-top: 7%; margin-bottom: 2%;" class="row col-sm-10 offset-sm-1">
-        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">To plan your perfect jewellery, meet with our representative</h1><br>
+    <div id="consultation"></div>
+
+    <div style="margin-top: 7%;" class="row col-sm-10 offset-sm-1">
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem; color: #000033;">To plan your perfect jewellery, meet with our representative</h1><br>
     </div>
 
     <div class="col-md-10 col-lg-10 offset-md-1 offset-lg-1">
@@ -275,50 +277,51 @@
     </div>
 
   <!--Referral Form-->
-    <div class="md-form fab">
-      <button type="submit" class="btn btn-flat" data-toggle="modal" data-target="#exampleModalCenter" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;">REFER US</button>
-    </div>
+  <div class="md-form fab">
+    <button type="submit" class="btn btn-flat" data-toggle="modal" data-target="#exampleModalCenter" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;">REFER US</button>
+  </div>
 
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-body" style="padding-bottom: 0;">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-            <div class="container-fluid">
-              <div style="text-align: center;" class="col-sm-12">
-                <h1 style="font-family: Cormorant Garamond;">Your favour means a lot to us!</h1>
-              </div>
-              <div class=" col-md-6 offset-md-3 col-sm-10 offset-sm-1">
-                <form action="">
-                  <div style="margin-bottom: 0; margin-top: 1%;" class="md-form">
-                      <label for="name" class="bmd-label-floating lab" style="font-family: 'Open Sans';" ></label>
-                      <input type="text" id="name" class="form-control" placeholder="Your Name">
-                  </div>
-                  <div style="margin: 0;" class="md-form">
-                    <label for="question" class="bmd-label-floating" style="font-family: 'Open Sans';"></label>
-                    <input type="text" id="question" class="form-control" placeholder="Receiver's Name">
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body" style="padding-bottom: 0;">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="container-fluid">
+            <div style="text-align: center;" class="col-sm-12">
+              <h1 style="font-family: Cormorant Garamond; color: #000033;">Refer to a friend and win exciting prizes
+                on their first purchase!</h1>
+            </div>
+            <div class="col-md-6 offset-md-0 col-sm-10 offset-sm-1">
+              <form action="">
+                <div style="margin-bottom: 0; margin-top: 1%;" class="md-form">
+                    <label for="name" class="bmd-label-floating lab" style="font-family: 'Open Sans';" ></label>
+                    <input type="text" id="name" class="form-control" placeholder="Your Name">
                 </div>
-                  <div style="margin: 0;" class="md-form">
-                      <label for="email" class="bmd-label-floating" style="font-family: 'Open Sans';"></label>
-                      <input type="email" id="email" class="form-control" placeholder="Receiver's E-mail">
-                  </div>
-                  <div style="margin: 0;" class="md-form">
-                      <label for="num" class="bmd-label-floating" style="font-family: 'Open Sans';"></label>
-                      <input type="number" id="num" class="form-control" placeholder="Receiver's Contact Number">
-                  </div>
-                  <div class=" col-sm-10 offset-sm-1 md-form">
-                      <button type="submit" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;;">SEND A REFERRAL E-MAIL</button>
-                  </div>
-              </form>
+                <div style="margin: 0;" class="md-form">
+                  <label for="question" class="bmd-label-floating" style="font-family: 'Open Sans';"></label>
+                  <input type="text" id="question" class="form-control" placeholder="Receiver's Name">
               </div>
+                <div style="margin: 0;" class="md-form">
+                    <label for="email" class="bmd-label-floating" style="font-family: 'Open Sans';"></label>
+                    <input type="email" id="email" class="form-control" placeholder="Receiver's E-mail">
+                </div>
+                <div style="margin: 0;" class="md-form">
+                    <label for="num" class="bmd-label-floating" style="font-family: 'Open Sans';"></label>
+                    <input type="number" id="num" class="form-control" placeholder="Receiver's Contact Number">
+                </div>
+                <div class="col-md-10 offset-md-0 col-sm-10 offset-sm-1 md-form">
+                    <button type="submit" class="btn btn-flat" style="font-family: 'Open Sans'; background-color: #fabaae; color: #ffffff; box-shadow: none;;">SEND A REFERRAL E-MAIL</button>
+                </div>
+            </form>
             </div>
           </div>
         </div>
       </div>
     </div>
-  <!--Referral Form-->
+  </div>
+<!--Referral Form-->
 
   <!--Footer-->
 <footer id="foot" style="bottom: 0;" class="page-footer font-small mt-3">
