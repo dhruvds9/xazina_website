@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .carousel,
 .carousel .carousel-inner,
 .carousel .carousel-inner .active,
@@ -6,11 +11,6 @@
 body,
 html {
     height: 100%
-}
-
-* {
-    margin: 0;
-    padding: 0;
 }
 
 body{
@@ -212,10 +212,7 @@ body{
 }
 
 @media (max-width: 675px){
-    body{
-        overflow-x: hidden;
-        width: 100%;
-    }
+
     .icon,
     .close-btn{
         display: block;
