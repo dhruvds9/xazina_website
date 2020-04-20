@@ -327,3 +327,8 @@ body{
     top: 82.5%;
     right: 25px;
 }
+
+button:hover,
+button.active{
+    background-color: #f99987 !important;
+}

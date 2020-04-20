@@ -251,3 +251,8 @@ body{
     height: 9rem;
     margin-top: 0;
 }
+
+button:hover,
+button.active{
+    background-color: #f99987 !important;
+}
