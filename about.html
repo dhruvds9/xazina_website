@@ -151,7 +151,7 @@
     </div>
   </nav>
 
-    <div style="margin-top: 3%; margin-left: 7%; margin-top: 8%;" class="row col-md-12 col-lg-12">
+    <div style="padding-top: 7rem;" class="row col-sm-10 offset-sm-1 pl-4">
       <h1 style="font-family: Cormorant Garamond; font-size: 3rem; color: #000033;">About Xazina</h1><br>
     </div>
 
@@ -311,6 +311,22 @@
   </footer>
   <!--/.Footer-->
 <!-- SCRIPTS -->
+<script type="text/javascript">
+  const openIcon = document.querySelector('.icon');
+  const linksWrapper = document.querySelector('.links-wrapper');
+  const backdrop = document.querySelector('.backdrop');
+  const closeIcon = document.querySelector('.close-btn');
+  
+  openIcon.addEventListener('click', () =>{
+    linksWrapper.classList.add('open');
+  });
+  closeIcon.addEventListener('click', () =>{
+    linksWrapper.classList.remove('open');
+  });
+  backdrop.addEventListener('click', () =>{
+    linksWrapper.classList.add('open');
+  });
+</script>
 <!-- JQuery -->
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <!-- Bootstrap tooltips -->
