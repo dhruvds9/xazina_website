@@ -109,14 +109,14 @@ body{
         position: absolute;
         top: 24px;
         right: -90vh;
-        color: #fff;
+        color: #fabaae;
         font-size: 2rem;
         z-index: 3;
         transition: 0.3s ease-in-out;
     }
 
     .close-btn:hover{
-        color: #fabaae;
+        color: #f99987;
         cursor: pointer;
     }
 
@@ -139,7 +139,7 @@ body{
 .navbar-items {
   font-family: 'Open Sans';
   font-size: medium;
-  color: #fff !important;
+  color: #fabaae !important;
   border-bottom: 2px solid transparent;
   font-weight: normal;
   padding-bottom: 0.125em;
@@ -152,9 +152,9 @@ body{
 
 .navbar-items:hover,
 .navbar-items.active {
-  border-bottom-color: #fabaae;
+  border-bottom-color: #f99987;
   font-weight: medium;
-  color: #fabaae !important;
+  color: #f99987 !important;
 
 }
 
@@ -193,16 +193,16 @@ body{
   transition: border-bottom-color 50ms linear 0s;
   margin: 0 0.5rem;
   background-color: #000033;
-  color: white !important;
+  color: #fabaae !important;
   display: block;
   margin: 0;
 }
 
 .dropdown-menu a:hover,
 .dropdown-menu a.active{
-  border-bottom-color: #fabaae;
+  border-bottom-color: #f99987;
   font-weight: medium;
-  color: #fabaae !important;
+  color: #f99987 !important;
   background-color: #000033 !important;
 }
 

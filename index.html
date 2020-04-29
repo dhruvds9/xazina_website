@@ -130,7 +130,7 @@
     <div class="links-wrapper active">
       <div class="backdrop"></div>
       <div class="close-btn"><i class="far fa-times-circle"></i></div>
-      <ul class="links">
+      <ul class="links links-back">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle navbar-items" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" id="navdr">ABOUT</a>
           <div class="dropdown-menu dropdown-menu-left dd-menu" aria-labelledby="navdr">
@@ -501,6 +501,7 @@
     var class4 = $(".navbar-items");
     var class5 = $(".dropdown-menu");
     var class6 = $(".navbar");
+    var class7 = $(".links-back");
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
@@ -511,6 +512,7 @@
             class4.removeClass('navbar-items').addClass("navbar-items-alt");
             class5.removeClass('dd-menu').addClass("dd-menu-alt");
             class6.removeClass('navbar-a').addClass("navbar-alt");
+            class7.removeClass('links-back').addClass("links-back-alt");
         } else {
             class1.removeClass('cls-1-alt').addClass("cls-1");
             class2.removeClass('cls-2-alt').addClass("cls-2");
@@ -518,6 +520,7 @@
             class4.removeClass('navbar-items-alt').addClass("navbar-items");
             class5.removeClass('dd-menu-alt').addClass("dd-menu");
             class6.removeClass('navbar-alt').addClass("navbar-a");
+            class7.removeClass('links-back-alt').addClass("links-back");
         }
     });
 });

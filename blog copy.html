@@ -150,7 +150,7 @@
 
     <div id="content">
       <div style="margin-top: 3%; margin-left: 7%; margin-top: 8%;" class="row col-md-12 col-lg-12">
-        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">About Xazina</h1><br>
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem;">CEO note goes here</h1><br>
       </div>
     </div>
 
@@ -205,12 +205,36 @@
         </div>
     </div>
 
-    <div id="trigger1" class="card col-sm-8 offset-sm-2">
+    <div id="content2" style="display: none;">
+      <div style="margin-top: 3%; margin-left: 7%; margin-top: 8%;" class="row col-md-12 col-lg-12">
+        <h1 style="font-family: Cormorant Garamond; font-size: 3rem; color: #000033;">What are lab</h1><h1 style="font-family: Open Sans; font-size: 3rem;">-</h1><h1 style="font-family: Cormorant Garamond; font-size: 3rem; color: #000033;">grown diamonds?</h1><br>
+      </div>
+
+      <div style="margin-top: 3%;" class="row col-md-12 col-lg-12">
+          <div class="col-md-5 col-lg-5" style="margin-left: 7%;">
+              <img style="width: 95%;" src="img/diamond15.png" alt="">
+          </div>
+          <div class="col-md-5 col-lg-5" style="margin-left: 3%;">
+              <p style="font-family: Open Sans; text-align: justify;">A lab-created diamond is “grown” inside a lab using cutting-edge technology that replicates the natural diamond growing process. The result is a man-made diamond that is chemically, physically and optically the same as those grown beneath the Earth’s surface.</p>
+          </div>
+      </div>
+    </div>
+
+    <div id="trigger1" class="card col-sm-8 offset-sm-2 mt-2 mb-3">
       <div class="card-body">
-        <h5 class="card-title" style="font-family: Cormorant Garamond; font-size: 3rem;">How we Started</h5>
+        <h5 class="card-title" style="font-family: Cormorant Garamond; font-size: 3rem;">First Post</h5>
         <p class="card-text" style="font-family: 'Open Sans'; font-size: 1rem;">Some quick example text to build on the card title and make up the bulk of the card's
           content.</p>
         <a href="#jump" onclick="showDeal()" class="stretched-link">Go somewhere</a>
+      </div>
+    </div>
+
+    <div id="trigger2" class="card col-sm-8 offset-sm-2">
+      <div class="card-body">
+        <h5 class="card-title" style="font-family: Cormorant Garamond; font-size: 3rem;">Second Post</h5>
+        <p class="card-text" style="font-family: 'Open Sans'; font-size: 1rem;">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+        <a href="#jump" onclick="showDeal2()" class="stretched-link">Go somewhere</a>
       </div>
     </div>
 
@@ -348,9 +372,18 @@
     function showDeal(){
       document.getElementById('content').style.display = "none";
       document.getElementById('content1').style.display = "block";
+      document.getElementById('content2').style.display = "none";
       document.getElementById('trigger1').style.display = "none";
+      document.getElementById('trigger2').style.display = "block";
     }
     
+    function showDeal2(){
+      document.getElementById('content').style.display = "none";
+      document.getElementById('content1').style.display = "none";
+      document.getElementById('content2').style.display = "block";
+      document.getElementById('trigger2').style.display = "none";
+      document.getElementById('trigger1').style.display = "block";
+    }
   </script>
 <!-- Bootstrap tooltips -->
 <script type="text/javascript" src="js/popper.min.js"></script>
