@@ -340,3 +340,27 @@ button:hover,
 button.active{
     background-color: #f99987 !important;
 }
+
+.mob{
+    display: none;
+}
+
+.desk{
+    
+}
+
+.mob-alt{
+
+}
+
+.desk-alt{
+    display: none;
+}
+
+.nb{
+    stroke: #000 !important;
+}
+
+.nb-alt{
+    stroke: #fabaae !important;
+}

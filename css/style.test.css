@@ -239,3 +239,7 @@ button:hover,
 button.active{
     background-color: #f99987 !important;
 }
+
+.nb{
+    stroke: #fabaae !important;
+}
