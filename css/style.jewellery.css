@@ -265,3 +265,12 @@ button.active{
 .desk-alt{
   display: none;
 }
+
+@media (min-width: 900px){
+  p{
+      font-size: medium;
+  }
+  #copyright{
+      padding-left: 7em;
+  }
+}

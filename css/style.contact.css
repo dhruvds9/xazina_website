@@ -65,11 +65,20 @@ body{
     }
 }
 
+.pad{
+  padding-top: 7rem;
+}
+
 @media (max-width: 675px){
     body{
         overflow-x: hidden;
         width: 100%;
     }
+
+    .pad{
+      padding-top: 2rem;
+    }
+
     .icon,
     .close-btn{
         display: block;
@@ -271,4 +280,13 @@ button.active{
 
 .desk-alt{
   display: none;
+}
+
+@media (min-width: 900px){
+  p{
+      font-size: medium;
+  }
+  #copyright{
+      padding-left: 7em;
+  }
 }
