@@ -277,6 +277,26 @@ body{
     .open .backdrop{
         display: block;
     }
+
+    .dd-menu {
+        content: "";
+        display: none;
+        position: fixed;
+        left: 50%;
+        margin: 10px auto;
+        background-color: rgba(215, 215, 215, 1);
+        width: 250px;
+        margin-left: -125px;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    .fab{
+        position: fixed;
+        z-index: 4;
+        top: 87.5% !important;
+        right: 25px;
+    }
 }
 
 .brand {
